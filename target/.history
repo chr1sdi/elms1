@@ -1,0 +1,8 @@
+compile
+compile -t
+~compile
+run
+~compile
+run
+idea
+run

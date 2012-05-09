@@ -1,0 +1,29 @@
+@(registrationList:List[Registration])
+
+@main("List of all confirmed registrations") {
+
+<div>
+    <h3>List of all confirmed registrations:</h3>
+    <table cellspacing="4">
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Profession</th>
+            <th>Experience</th>
+            <th>Confirmed</th>
+        </tr>
+    @registrationList.map{registration =>
+        <tr>
+            <td>@registration.firstName</td>
+            <td>@registration.lastName</td>
+            <td>@registration.profession</td>
+            <td>@registration.yearsOfExperience years</td>
+            <td>@registration.isConfirmed</td>
+        </tr>
+
+    }
+    </table>
+
+</div>
+
+}

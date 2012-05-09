@@ -5,11 +5,38 @@
 <html>
     <head>
         <title>@title</title>
-        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/adaria/style.css")">
         <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
         <script src="@routes.Assets.at("javascripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
     </head>
     <body>
-        @content
+            <div class="header">
+                <h2>Freshly "@title" page</h2>
+
+                <div class="menu">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li>
+                            <a href="@routes.Registrations.listOfConfirmedRegistrations">Registrations</a>
+                            <ul>
+                                <li><a href="@routes.Registrations.listOfConfirmedRegistrations">List of all confirmed registrations</a></li>
+                                <li><a href="#Register">Send your registration</a></li>
+
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <br/>
+            <div class="main_container">
+                @content
+            </div>
+
+            <div class="footer">
+               Some footer stuff over here
+            </div>
+
+
     </body>
 </html>
