@@ -6,3 +6,14 @@ run
 run
 idea
 run
+compile
+idea
+compile
+run
+compile
+test
+~compile
+run
+idea
+compile
+run

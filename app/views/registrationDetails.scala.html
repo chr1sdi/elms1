@@ -1,9 +1,6 @@
-@(registrationList:List[Registration])
-
-@main("List of all confirmed registrations") {
+@(registrationList:List[Registration], isAdmin:Boolean = false)
 
 <div>
-    <h3>List of all confirmed registrations:</h3>
     <table cellspacing="4">
         <tr>
             <th>First name</th>
@@ -11,19 +8,23 @@
             <th>Profession</th>
             <th>Experience</th>
             <th>Confirmed</th>
+            <th>Confirmation date</th>
         </tr>
-    @registrationList.map{registration =>
+        @registrationList.map{registration =>
         <tr>
             <td>@registration.firstName</td>
             <td>@registration.lastName</td>
             <td>@registration.profession</td>
             <td>@registration.yearsOfExperience years</td>
             <td>@registration.isConfirmed</td>
+            <td>@registration.confirmationDate</td>
+            @if(isAdmin) {
+                <td><a href="#delete this">Delete</a></td>
+            }
+            @if(isAdmin && !registration.isConfirmed){
+                <td><a href="#confirm this">Confirm</a></td>
+            }
         </tr>
-
-    }
+        }
     </table>
-
 </div>
-
-}

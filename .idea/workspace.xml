@@ -2,16 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="335e33cb-8a6e-4210-a9e6-4892e3285aa5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Registration.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Person.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/Registration.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/registration_list.scala.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/Application.scala" afterPath="$PROJECT_DIR$/app/controllers/Application.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/index.scala.html" afterPath="$PROJECT_DIR$/app/views/index.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Error.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/Registrations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/error.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/newRegistration.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/registrationDetails.scala.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/registrationList.scala.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/Registration.scala" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/registration_list.scala.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/Registrations$$anonfun$listOfConfirmedRegistrations$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseRegistrations$$anonfun$listOfConfirmedRegistrations$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseRegistrations$$anonfun$listOfConfirmedRegistrations$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list$$anonfun$apply$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/compile/compile" afterPath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/compile/compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/update/inputs" afterPath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/update/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/update/output" afterPath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/cache/update/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/classes/ApplicationBuild$.class" afterPath="$PROJECT_DIR$/project/target/scala-2.9.1/sbt-0.11.2/classes/ApplicationBuild$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/compile" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/copy-resources" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/copy-resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/update/inputs" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/update/inputs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/update/output" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/update/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1$$anonfun$apply$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$$anonfun$routes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/Routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/Registrations$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/Registrations$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/Registrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/Registrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/javascript/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseApplication$$anonfun$index$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseAssets$$anonfun$at$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/ref/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes$javascript.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes$javascript.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes$ref.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes$ref.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/controllers/routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registration$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registration$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registration.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/routes" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/routes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/main$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/views/html/registration_list.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1$$anonfun$apply$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3$$anonfun$apply$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5$$anonfun$apply$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1$$anonfun$apply$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$$anonfun$routes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/Routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/javascript/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication$$anonfun$index$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets$$anonfun$at$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseAssets.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseRegistrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/ref/ReverseRegistrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$javascript.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$javascript.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$ref.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes$ref.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list$$anonfun$f$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list$$anonfun$f$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/registration_list.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/sources/$global/out" afterPath="$PROJECT_DIR$/target/streams/compile/sources/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Registration.scala" afterPath="$PROJECT_DIR$/app/models/Registration.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/main.scala.html" afterPath="$PROJECT_DIR$/app/views/main.scala.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/routes" afterPath="$PROJECT_DIR$/conf/routes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/Build.scala" afterPath="$PROJECT_DIR$/project/Build.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emls1.iml" afterPath="$PROJECT_DIR$/emls1.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/controllers/routes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_routing.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/index.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/main.template.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/registration_list.template.scala" afterPath="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/views/html/registration_list.template.scala" />
     </list>
     <ignored path="elms1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,6 +154,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Registration.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="6" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Registrations.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/Registrations.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="19" selection-start="663" selection-end="663" vertical-scroll-proportion="0.47272727">
+              <folding>
+                <element signature="e#22#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Application.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,49 +183,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scala.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
+      <file leaf-file-name="newRegistration.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/newRegistration.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="32" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.42990655">
+            <state line="19" column="20" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
+      <file leaf-file-name="registrationList.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/registrationList.scala.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.6666667">
+            <state line="6" column="28" selection-start="88" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_list.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/registration_list.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="-3.3333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Registration.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/Registration.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="47" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#22#39#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -138,18 +214,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/project/Build.scala" />
-        <option value="$PROJECT_DIR$/conf/routes" />
         <option value="$PROJECT_DIR$/app/models/Person.scala" />
         <option value="$PROJECT_DIR$/public/stylesheets/adaria/style.css" />
         <option value="$PROJECT_DIR$/app/models/RegistrationPrivilege.scala" />
-        <option value="$PROJECT_DIR$/app/controllers/Registration.scala" />
-        <option value="$PROJECT_DIR$/app/models/Registration.scala" />
-        <option value="$PROJECT_DIR$/app/views/registration_list.scala.html" />
         <option value="$PROJECT_DIR$/app/controllers/Application.scala" />
         <option value="$PROJECT_DIR$/app/views/index.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/registration_list.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/registrationDetails.scala.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Registration.scala" />
+        <option value="$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala" />
         <option value="$PROJECT_DIR$/app/views/main.scala.html" />
+        <option value="$PROJECT_DIR$/app/views/error.scala.html" />
+        <option value="$PROJECT_DIR$/conf/routes" />
+        <option value="$PROJECT_DIR$/app/controllers/Error.scala" />
+        <option value="$PROJECT_DIR$/app/models/Registration.scala" />
+        <option value="$PROJECT_DIR$/app/views/newRegistration.scala.html" />
+        <option value="$PROJECT_DIR$/app/controllers/Registrations.scala" />
       </list>
     </option>
   </component>
@@ -157,8 +237,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1744" />
-    <option name="y" value="-4" />
+    <option name="x" value="64" />
+    <option name="y" value="-1054" />
     <option name="width" value="1617" />
     <option name="height" value="1055" />
   </component>
@@ -188,12 +268,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="elms1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="emls1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -333,6 +417,10 @@
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Registration.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -348,12 +436,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Registration.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -376,16 +460,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elms1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="emls1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -574,7 +654,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1744" y="-4" width="1617" height="1055" extended-state="6" />
+    <frame x="64" y="-1054" width="1617" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -582,19 +662,19 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24819277" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20931716" sideWeight="0.0" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -658,103 +738,87 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="26" selection-end="30" vertical-scroll-proportion="0.03168317" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="401" selection-end="401" vertical-scroll-proportion="0.36879432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/routes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="60" selection-start="402" selection-end="402" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/adaria/license.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="835" selection-end="835" vertical-scroll-proportion="0.34042552" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Person.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="64" selection-end="64" vertical-scroll-proportion="0.05893186" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/adaria/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="27" selection-start="329" selection-end="329" vertical-scroll-proportion="0.23762377" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/adaria/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="24" selection-start="1119" selection-end="1138" vertical-scroll-proportion="0.030828517">
-          <folding />
-        </state>
+        <state line="25" column="24" selection-start="1119" selection-end="1138" vertical-scroll-proportion="0.030828517" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/adaria/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="54" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.42504743">
-          <folding />
-        </state>
+        <state line="64" column="54" selection-start="2794" selection-end="2794" vertical-scroll-proportion="0.42504743" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index.class">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/src_managed/main/routes_reverseRouting.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="7" selection-start="26" selection-end="26" vertical-scroll-proportion="0.028571429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="160" column="79" selection-start="2559" selection-end="2559" vertical-scroll-proportion="0.217695" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="19" selection-end="19" vertical-scroll-proportion="-0.6666667">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="-4.6666665" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/registration_list.scala.html">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/views/html/index.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="99" selection-end="99" vertical-scroll-proportion="-3.3333333">
-          <folding />
-        </state>
+        <state line="1" column="7" selection-start="26" selection-end="31" vertical-scroll-proportion="0.01948843" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/Registration.scala">
+    <entry file="file://$PROJECT_DIR$/target/scala-2.9.1/classes_managed/controllers/routes.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="47" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#22#39#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="6" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.09592326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/main.scala.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="32" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.42990655">
-          <folding />
+        <state line="33" column="17" selection-start="1242" selection-end="1242" vertical-scroll-proportion="0.6323353" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registrationDetails.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="669" selection-end="669" vertical-scroll-proportion="0.35514018" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/routes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="72" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/error.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="28" selection-start="122" selection-end="122" vertical-scroll-proportion="0.093457945" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Error.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="75" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3272727" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="6" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="153" selection-end="153" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/newRegistration.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="20" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registrationList.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="88" selection-end="201" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/Registrations.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="663" selection-end="663" vertical-scroll-proportion="0.47272727">
+          <folding>
+            <element signature="e#22#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -811,12 +875,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>emls1</last-edited>
+          <last-edited>Scala|emls1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

@@ -17,11 +17,10 @@
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li>
-                            <a href="@routes.Registrations.listOfConfirmedRegistrations">Registrations</a>
+                            <a href="@routes.Registrations.viewRegistrations">Registrations</a>
                             <ul>
-                                <li><a href="@routes.Registrations.listOfConfirmedRegistrations">List of all confirmed registrations</a></li>
-                                <li><a href="#Register">Send your registration</a></li>
-
+                                <li><a href="@routes.Registrations.viewRegistrations">View registrations</a></li>
+                                <li><a href="@routes.Registrations.addNew">Send your registration</a></li>
                             </ul>
 
                         </li>
@@ -33,6 +32,7 @@
                 @content
             </div>
 
+            <br/>
             <div class="footer">
                Some footer stuff over here
             </div>

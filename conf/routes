@@ -9,4 +9,9 @@ GET     /                           controllers.Application.index
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 # Registration page
-GET     /registrations/confirmed   controllers.Registrations.listOfConfirmedRegistrations
+GET     /registrations/view   controllers.Registrations.viewRegistrations
+GET     /registrations/add    controllers.Registrations.addNew
+POST    /registrations/add    controllers.Registrations.submit
+
+# Error handling
+GET     /registrations/error  controllers.Error.showError(errorMessage:String)

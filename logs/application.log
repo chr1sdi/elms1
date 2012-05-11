@@ -1,626 +1,52 @@
-2012-05-09 16:15:01,303 - [INFO] - from play in main 
+2012-05-11 11:02:10,185 - [INFO] - from play in main 
 Listening for HTTP on port 9000...
 
-2012-05-09 16:21:34,011 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [`)' expected but end of source found]
-	at sbt.PlayCommands$$anonfun$48.apply(PlayCommands.scala:543) ~[na:na]
-	at sbt.PlayCommands$$anonfun$48.apply(PlayCommands.scala:519) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.2]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138) ~[na:1.6.0_32]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138) ~[na:1.6.0_32]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_32]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_32]
-	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_32]
-
-2012-05-09 16:21:48,092 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [in XML literal: name expected, but char '/' cannot start a name]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 16:22:30,236 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [in XML literal: name expected, but char '/' cannot start a name]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 16:23:04,662 - [INFO] - from play in play-akka.actor.default-dispatcher-2 
+2012-05-11 11:04:22,880 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
 Application started (Dev)
 
-2012-05-09 16:24:41,313 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+2012-05-11 11:04:23,192 - [ERROR] - from application in play-akka.actor.actions-dispatcher-2 
+
+
+! @6ab49ii1l - Internal server error, for request [POST /registrations/add] ->
+
+play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NoSuchElementException: None.get]]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:82) [play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:63) [play_2.9.1.jar:2.0]
+	at akka.actor.Actor$class.apply(Actor.scala:290) [akka-actor.jar:2.0]
+	at play.core.ActionInvoker.apply(Invoker.scala:61) [play_2.9.1.jar:2.0]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:617) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:179) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:161) [akka-actor.jar:2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:505) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:274) ~[scala-library.jar:0.11.2]
+	at scala.None$.get(Option.scala:272) ~[scala-library.jar:0.11.2]
+	at play.api.data.Form.get(Form.scala:202) ~[play_2.9.1.jar:2.0]
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:34) ~[classes/:na]
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:32) ~[classes/:na]
+	at play.api.mvc.Action$$anon$1.apply(Action.scala:170) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:73) [play_2.9.1.jar:2.0]
+	... 11 common frames omitted
+
+2012-05-11 11:04:53,586 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
 Application started (Dev)
 
-2012-05-09 16:24:57,098 - [INFO] - from play in play-akka.actor.default-dispatcher-7 
+2012-05-11 11:05:09,979 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
 Application started (Dev)
 
-2012-05-09 16:25:32,529 - [INFO] - from play in play-akka.actor.default-dispatcher-7 
-Application started (Dev)
+2012-05-11 11:07:58,294 - [ERROR] - from application in New I/O server worker #1-4 
 
-2012-05-09 16:26:07,257 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
-Application started (Dev)
 
-2012-05-09 16:26:23,082 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
-Application started (Dev)
+! Internal server error, for request [POST /registrations/add] ->
 
-2012-05-09 16:33:40,083 - [ERROR] - from application in New I/O server worker #1-4 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$TemplateCompilationException: Compilation error [Not parsed?]
-	at sbt.PlayCommands$$anonfun$48.apply(PlayCommands.scala:543) ~[na:na]
-	at sbt.PlayCommands$$anonfun$48.apply(PlayCommands.scala:519) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at sbt.Scoped$$anonfun$hf4$1.apply(Structure.scala:475) ~[na:na]
-	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:41) ~[scala-library.jar:0.11.2]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.Scoped$Reduced$$anonfun$combine$1$$anonfun$apply$11.apply(Structure.scala:295) ~[na:na]
-	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40) ~[na:na]
-	at sbt.std.Transform$$anon$5.work(System.scala:67) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:18) ~[na:na]
-	at sbt.Execute.work(Execute.scala:227) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:221) ~[na:na]
-	at sbt.CompletionService$$anon$1$$anon$2.call(CompletionService.scala:26) ~[na:na]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138) ~[na:1.6.0_32]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303) ~[na:1.6.0_32]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:138) ~[na:1.6.0_32]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886) [na:1.6.0_32]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908) [na:1.6.0_32]
-	at java.lang.Thread.run(Thread.java:662) [na:1.6.0_32]
-
-2012-05-09 16:33:51,415 - [INFO] - from play in play-akka.actor.default-dispatcher-12 
-Application started (Dev)
-
-2012-05-09 17:18:52,678 - [INFO] - from play in play-akka.actor.default-dispatcher-17 
-Application started (Dev)
-
-2012-05-09 17:24:31,245 - [INFO] - from play in play-akka.actor.default-dispatcher-20 
-Application started (Dev)
-
-2012-05-09 17:25:04,856 - [INFO] - from play in play-akka.actor.default-dispatcher-21 
-Application started (Dev)
-
-2012-05-09 17:25:42,975 - [INFO] - from play in play-akka.actor.default-dispatcher-23 
-Application started (Dev)
-
-2012-05-09 17:26:28,152 - [INFO] - from play in play-akka.actor.default-dispatcher-23 
-Application started (Dev)
-
-2012-05-09 17:26:51,577 - [INFO] - from play in play-akka.actor.default-dispatcher-25 
-Application started (Dev)
-
-2012-05-09 17:27:41,618 - [INFO] - from play in play-akka.actor.default-dispatcher-28 
-Application started (Dev)
-
-2012-05-09 17:29:08,683 - [INFO] - from play in play-akka.actor.default-dispatcher-35 
-Application started (Dev)
-
-2012-05-09 17:32:25,046 - [INFO] - from play in play-akka.actor.default-dispatcher-37 
-Application started (Dev)
-
-2012-05-09 17:34:50,500 - [INFO] - from play in play-akka.actor.default-dispatcher-37 
-Application started (Dev)
-
-2012-05-09 17:35:10,051 - [INFO] - from play in play-akka.actor.default-dispatcher-39 
-Application started (Dev)
-
-2012-05-09 17:35:40,731 - [INFO] - from play in play-akka.actor.default-dispatcher-41 
-Application started (Dev)
-
-2012-05-09 19:22:59,897 - [ERROR] - from application in New I/O server worker #1-5 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not enough arguments for constructor Registration: (firstName: String, lastName: String, profession: String, yearsOfExperience: Int, isConfirmed: Boolean)models.Registration.
-Unspecified value parameter isConfirmed.]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:23:37,417 - [ERROR] - from application in New I/O server worker #1-5 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [value firstName is not a member of models.Registration]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:25:34,915 - [INFO] - from play in play-akka.actor.default-dispatcher-45 
-Application started (Dev)
-
-2012-05-09 19:26:02,663 - [INFO] - from play in play-akka.actor.default-dispatcher-46 
-Application started (Dev)
-
-2012-05-09 19:27:59,413 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [type mismatch;
- found   : models.Registration
- required: Int]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:28:43,873 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value registration]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:35,583 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:37,503 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:38,375 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:38,820 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:39,204 - [ERROR] - from application in New I/O server worker #1-2 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:39,519 - [ERROR] - from application in New I/O server worker #1-3 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:39,851 - [ERROR] - from application in New I/O server worker #1-4 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [not found: value HTML]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:30:50,481 - [INFO] - from play in play-akka.actor.default-dispatcher-49 
-Application started (Dev)
-
-2012-05-09 19:31:12,015 - [ERROR] - from application in New I/O server worker #1-4 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [value profession is not a member of models.Registration]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:31:52,812 - [INFO] - from play in play-akka.actor.default-dispatcher-50 
-Application started (Dev)
-
-2012-05-09 19:46:47,484 - [INFO] - from play in play-akka.actor.default-dispatcher-51 
-Application started (Dev)
-
-2012-05-09 19:47:05,135 - [INFO] - from play in play-akka.actor.default-dispatcher-51 
-Application started (Dev)
-
-2012-05-09 19:49:08,736 - [INFO] - from play in play-akka.actor.default-dispatcher-55 
-Application started (Dev)
-
-2012-05-09 19:49:37,702 - [INFO] - from play in play-akka.actor.default-dispatcher-56 
-Application started (Dev)
-
-2012-05-09 19:49:46,858 - [INFO] - from play in play-akka.actor.default-dispatcher-60 
-Application started (Dev)
-
-2012-05-09 19:50:34,557 - [INFO] - from play in play-akka.actor.default-dispatcher-60 
-Application started (Dev)
-
-2012-05-09 19:50:55,028 - [INFO] - from play in play-akka.actor.default-dispatcher-62 
-Application started (Dev)
-
-2012-05-09 19:51:02,350 - [INFO] - from play in play-akka.actor.default-dispatcher-65 
-Application started (Dev)
-
-2012-05-09 19:51:17,282 - [INFO] - from play in play-akka.actor.default-dispatcher-66 
-Application started (Dev)
-
-2012-05-09 19:51:25,594 - [INFO] - from play in play-akka.actor.default-dispatcher-68 
-Application started (Dev)
-
-2012-05-09 19:54:24,285 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [too many arguments for method apply: (title: String)(content: play.api.templates.Html)(isAdmin: Boolean)play.api.templates.Html in object main]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:54:41,408 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method apply in object main;
+sbt.PlayExceptions$CompilationException: Compilation error [missing arguments for method mapping in object Forms;
 follow this method with `_' if you want to treat it as a partially applied function]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
@@ -646,14 +72,13 @@ follow this method with `_' if you want to treat it as a partially applied funct
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
 
-2012-05-09 19:55:32,944 - [ERROR] - from application in New I/O server worker #1-1 
+2012-05-11 11:10:19,815 - [ERROR] - from application in New I/O server worker #1-5 
 
 
-! Internal server error, for request [GET /registrations/confirmed] ->
+! Internal server error, for request [POST /registrations/add] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [type mismatch;
- found   : play.api.templates.Html
- required: Boolean]
+sbt.PlayExceptions$CompilationException: Compilation error [not found: value s
+Error occurred in an application involving default arguments.]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
 	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
 	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
@@ -678,130 +103,71 @@ sbt.PlayExceptions$CompilationException: Compilation error [type mismatch;
 	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
 	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
 
-2012-05-09 19:55:34,880 - [ERROR] - from application in New I/O server worker #1-1 
+2012-05-11 11:10:32,973 - [INFO] - from play in play-akka.actor.default-dispatcher-4 
+Application started (Dev)
+
+2012-05-11 11:10:33,010 - [ERROR] - from application in play-akka.actor.actions-dispatcher-9 
 
 
-! Internal server error, for request [GET /registrations/confirmed] ->
+! @6ab49ii1m - Internal server error, for request [POST /registrations/add] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [type mismatch;
- found   : play.api.templates.Html
- required: Boolean]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[NoSuchElementException: None.get]]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:82) [play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:63) [play_2.9.1.jar:2.0]
+	at akka.actor.Actor$class.apply(Actor.scala:290) [akka-actor.jar:2.0]
+	at play.core.ActionInvoker.apply(Invoker.scala:61) [play_2.9.1.jar:2.0]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:617) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:179) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:161) [akka-actor.jar:2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:505) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0]
+Caused by: java.util.NoSuchElementException: None.get
+	at scala.None$.get(Option.scala:274) ~[scala-library.jar:0.11.2]
+	at scala.None$.get(Option.scala:272) ~[scala-library.jar:0.11.2]
+	at play.api.data.Form.get(Form.scala:202) ~[play_2.9.1.jar:2.0]
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:33) ~[classes/:2.0]
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:32) ~[classes/:2.0]
+	at play.api.mvc.Action$$anon$1.apply(Action.scala:170) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:73) [play_2.9.1.jar:2.0]
+	... 11 common frames omitted
 
-2012-05-09 19:56:45,157 - [ERROR] - from application in New I/O server worker #1-1 
+2012-05-11 11:15:08,115 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
+Application started (Dev)
 
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [Cannot write an instance of views.html.index.type to HTTP response. Try to define a Writeable[views.html.index.type]]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:57:05,035 - [ERROR] - from application in New I/O server worker #1-1 
+2012-05-11 11:15:17,446 - [ERROR] - from application in play-akka.actor.actions-dispatcher-11 
 
 
-! Internal server error, for request [GET /registrations/confirmed] ->
+! @6ab49ii1n - Internal server error, for request [POST /registrations/add] ->
 
-sbt.PlayExceptions$CompilationException: Compilation error [type mismatch;
- found   : play.api.templates.Html
- required: Boolean]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
+play.core.ActionInvoker$$anonfun$receive$1$$anon$1: Execution exception [[MatchError: () (of class scala.runtime.BoxedUnit)]]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:82) [play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:63) [play_2.9.1.jar:2.0]
+	at akka.actor.Actor$class.apply(Actor.scala:290) [akka-actor.jar:2.0]
+	at play.core.ActionInvoker.apply(Invoker.scala:61) [play_2.9.1.jar:2.0]
+	at akka.actor.ActorCell.invoke(ActorCell.scala:617) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:179) [akka-actor.jar:2.0]
+	at akka.dispatch.Mailbox.run(Mailbox.scala:161) [akka-actor.jar:2.0]
+	at akka.dispatch.ForkJoinExecutorConfigurator$MailboxExecutionTask.exec(AbstractDispatcher.scala:505) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) [akka-actor.jar:2.0]
+	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) [akka-actor.jar:2.0]
+Caused by: scala.MatchError: () (of class scala.runtime.BoxedUnit)
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:33) ~[classes/:2.0]
+	at controllers.Registrations$$anonfun$submit$1.apply(Registrations.scala:32) ~[classes/:2.0]
+	at play.api.mvc.Action$$anon$1.apply(Action.scala:170) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1$$anonfun$4.apply(Invoker.scala:74) ~[play_2.9.1.jar:2.0]
+	at play.utils.Threads$.withContextClassLoader(Threads.scala:17) ~[play_2.9.1.jar:2.0]
+	at play.core.ActionInvoker$$anonfun$receive$1.apply(Invoker.scala:73) [play_2.9.1.jar:2.0]
+	... 11 common frames omitted
 
-2012-05-09 19:58:14,377 - [ERROR] - from application in New I/O server worker #1-1 
-
-
-! Internal server error, for request [GET /registrations/confirmed] ->
-
-sbt.PlayExceptions$CompilationException: Compilation error [too many arguments for method apply: (title: String)(isAdmin: Boolean)(content: play.api.templates.Html)play.api.templates.Html in object main]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11$$anonfun$apply$12.apply(PlayReloader.scala:224) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:224) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2$$anonfun$apply$11.apply(PlayReloader.scala:221) ~[na:na]
-	at scala.Option.map(Option.scala:133) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:221) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3$$anonfun$2.apply(PlayReloader.scala:219) ~[na:na]
-	at scala.Either$LeftProjection.map(Either.scala:183) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:219) ~[na:na]
-	at sbt.PlayReloader$$anon$2$$anonfun$reload$3.apply(PlayReloader.scala:214) ~[na:na]
-	at scala.Option.getOrElse(Option.scala:108) ~[scala-library.jar:0.11.2]
-	at sbt.PlayReloader$$anon$2.reload(PlayReloader.scala:214) ~[na:na]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:110) ~[play_2.9.1.jar:2.0]
-	at akka.dispatch.Future$$anon$3.liftedTree1$1(Future.scala:195) ~[akka-actor.jar:2.0]
-	at akka.dispatch.Future$$anon$3.run(Future.scala:194) ~[akka-actor.jar:2.0]
-	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:83) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1381) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinTask.doExec(ForkJoinTask.java:259) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:997) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinPool.runWorker(ForkJoinPool.java:1495) ~[akka-actor.jar:2.0]
-	at akka.jsr166y.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:104) ~[akka-actor.jar:2.0]
-
-2012-05-09 19:59:24,313 - [INFO] - from play in play-akka.actor.default-dispatcher-67 
+2012-05-11 11:15:30,995 - [INFO] - from play in play-akka.actor.default-dispatcher-9 
 Application started (Dev)
 

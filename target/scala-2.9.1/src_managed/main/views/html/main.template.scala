@@ -38,11 +38,10 @@ Seq(format.raw/*1.32*/("""
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li>
-                            <a href=""""),_display_(Seq(/*20.39*/routes/*20.45*/.Registrations.listOfConfirmedRegistrations)),format.raw/*20.88*/("""">Registrations</a>
+                            <a href=""""),_display_(Seq(/*20.39*/routes/*20.45*/.Registrations.viewRegistrations)),format.raw/*20.77*/("""">Registrations</a>
                             <ul>
-                                <li><a href=""""),_display_(Seq(/*22.47*/routes/*22.53*/.Registrations.listOfConfirmedRegistrations)),format.raw/*22.96*/("""">List of all confirmed registrations</a></li>
-                                <li><a href="#Register">Send your registration</a></li>
-
+                                <li><a href=""""),_display_(Seq(/*22.47*/routes/*22.53*/.Registrations.viewRegistrations)),format.raw/*22.85*/("""">View registrations</a></li>
+                                <li><a href=""""),_display_(Seq(/*23.47*/routes/*23.53*/.Registrations.addNew)),format.raw/*23.74*/("""">Send your registration</a></li>
                             </ul>
 
                         </li>
@@ -51,9 +50,10 @@ Seq(format.raw/*1.32*/("""
             </div>
             <br/>
             <div class="main_container">
-                """),_display_(Seq(/*33.18*/content)),format.raw/*33.25*/("""
+                """),_display_(Seq(/*32.18*/content)),format.raw/*32.25*/("""
             </div>
 
+            <br/>
             <div class="footer">
                Some footer stuff over here
             </div>
@@ -73,11 +73,11 @@ Seq(format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed May 09 19:59:19 BST 2012
+                    DATE: Thu May 10 01:11:46 BST 2012
                     SOURCE: /home/zenon/scala/elms1/app/views/main.scala.html
-                    HASH: fc2a5bb5cf4b8a6460ee125e4dbd33d401adb623
-                    MATRIX: 509->1|611->31|694->84|720->89|812->151|826->157|890->199|981->260|995->266|1048->298|1104->323|1119->329|1186->374|1338->495|1365->500|1590->694|1605->700|1670->743|1800->842|1815->848|1880->891|2256->1236|2285->1243
-                    LINES: 19->1|22->1|28->7|28->7|29->8|29->8|29->8|30->9|30->9|30->9|31->10|31->10|31->10|35->14|35->14|41->20|41->20|41->20|43->22|43->22|43->22|54->33|54->33
+                    HASH: ae1f6e9b79734d1b701f8836917eb30ed1f0fab1
+                    MATRIX: 509->1|611->31|694->84|720->89|812->151|826->157|890->199|981->260|995->266|1048->298|1104->323|1119->329|1186->374|1338->495|1365->500|1590->694|1605->700|1659->732|1789->831|1804->837|1858->869|1965->945|1980->951|2023->972|2297->1215|2326->1222
+                    LINES: 19->1|22->1|28->7|28->7|29->8|29->8|29->8|30->9|30->9|30->9|31->10|31->10|31->10|35->14|35->14|41->20|41->20|41->20|43->22|43->22|43->22|44->23|44->23|44->23|53->32|53->32
                     -- GENERATED --
                 */
             
