@@ -19,6 +19,10 @@ object Registrations extends Controller {
     )
   )
 
+  val identityInfo = Form{
+    single("id" -> number)
+  }
+
   def viewRegistrations = Action{
     Ok(views.html.registrationList(models.Registrations.getRegistrationList))
   }
@@ -27,38 +31,51 @@ object Registrations extends Controller {
     Ok(views.html.newRegistration())
   }
 
-  def submit = Action{
+  private def goToRegistrationList :Result = {
+    //Ok(views.html.registrationList(models.Registrations.getRegistrationList))
+    Redirect(routes.Registrations.viewRegistrations())
+  }
 
+  private def showError(errorMessage:String):Result = {
+    Ok(views.html.error(errorMessage))
+  }
+
+
+  def saveNew = Action{
     implicit request=> {
       newRegistrationForm.bindFromRequest.fold(
-        errors => Ok(views.html.error("something wend terribly wrong")),
+        errors => showError("something wend terribly wrong while adding"),
         reg=>{
           val (firstName,lastName,expYears) = reg
           models.Registrations.addNew(Registration(firstName,lastName,"test prof",expYears))
+          goToRegistrationList
+
         }
 
       )
-
-
-      //models.Registrations.addNew(Registration(s1,"lName","prof",1))
-      Ok(views.html.registrationList(models.Registrations.getRegistrationList))
     }
-      /*newRegistrationForm.bindFromRequest().fold(
-      errors => Ok(views.html.error("something went bad")),
-      reg => {
-        val (fName, lName, years) = reg
-        val registration = Registration("asdfasdfasdfasdfasdf", "asdfasdfasdf", "temp professino", 2)
+  }
 
-        models.Registrations.addNew(registration)
+  def delete = Action{
+    implicit request=>
+      identityInfo.bindFromRequest.fold(
+        errors=> showError("something went wrong with deletion"),
+        delInfo =>{
+          val id = delInfo
+          models.Registrations.remove(id)
+          goToRegistrationList
+        }
+      )
+  }
 
-
-        Redirect(routes.Application.index())
-      }
-    )
-                                                                 */
-
-   //models.Registrations.addNew(Registration("fNa11me","lName","prof",1))
-    //Redirect(routes.Registrations.viewRegistrations())
-
+  def confirm = Action{
+    implicit request =>
+      identityInfo.bindFromRequest.fold(
+        errors=>  showError("something went wrong with confirming"),
+        confInfo=>{
+          models.Registrations.confirm(confInfo)
+          goToRegistrationList
+        }
+      )
   }
 }

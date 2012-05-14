@@ -20,7 +20,7 @@ object newRegistration extends BaseScalaTemplate[play.api.templates.Html,Format[
         _display_ {
 
 Seq(_display_(Seq(/*1.2*/main("New Registration")/*1.26*/ {_display_(Seq(format.raw/*1.28*/("""
-	"""),_display_(Seq(/*2.3*/helper/*2.9*/.form(action = routes.Registrations.submit)/*2.52*/{_display_(Seq(format.raw/*2.53*/("""
+	"""),_display_(Seq(/*2.3*/helper/*2.9*/.form(action = routes.Registrations.saveNew)/*2.53*/{_display_(Seq(format.raw/*2.54*/("""
 	<div >
 
 	    <h3>New registration form</h3>
@@ -64,10 +64,10 @@ Seq(_display_(Seq(/*1.2*/main("New Registration")/*1.26*/ {_display_(Seq(format.
 }
                 /*
                     -- GENERATED --
-                    DATE: Thu May 10 03:38:33 BST 2012
+                    DATE: Fri May 11 16:21:48 BST 2012
                     SOURCE: /home/zenon/scala/elms1/app/views/newRegistration.scala.html
-                    HASH: ea53e0a7d02ebb0bf868a42fb5b0dcc87cc74abf
-                    MATRIX: 578->1|610->25|644->27|676->30|689->36|740->79|773->80|1644->920|1659->926|1699->944|1787->1001
+                    HASH: 7ba89d3776c105e589324e81703686ce3525b7a3
+                    MATRIX: 578->1|610->25|644->27|676->30|689->36|741->80|774->81|1645->921|1660->927|1700->945|1788->1002
                     LINES: 22->1|22->1|22->1|23->2|23->2|23->2|23->2|51->30|51->30|51->30|54->33
                     -- GENERATED --
                 */

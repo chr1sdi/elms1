@@ -19,10 +19,20 @@
             <td>@registration.isConfirmed</td>
             <td>@registration.confirmationDate</td>
             @if(isAdmin) {
-                <td><a href="#delete this">Delete</a></td>
+                <td>
+                    @helper.form(action = routes.Registrations.delete) {
+                        <input type="hidden" name="id" value="@registration.id"/>
+                        <input type="submit" class="btn btn-large btn-primary" value="Delete"/>
+                    }
+
+                </td>
             }
             @if(isAdmin && !registration.isConfirmed){
-                <td><a href="#confirm this">Confirm</a></td>
+                <td>
+                    @helper.form(action = routes.Registrations.confirm){
+                        <input type="hidden" name="id" value="@registration.id" />
+                        <input type="submit" value="Confirm" />
+                    }
             }
         </tr>
         }

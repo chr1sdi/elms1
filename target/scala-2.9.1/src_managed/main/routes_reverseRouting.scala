@@ -1,6 +1,6 @@
 // @SOURCE:/home/zenon/scala/elms1/conf/routes
-// @HASH:a2140bafe8f713b9c4b68fddd7c7af9a0c0fd320
-// @DATE:Thu May 10 02:05:42 BST 2012
+// @HASH:1a98835135916211cf771726744b26613c34343e
+// @DATE:Fri May 11 16:21:48 BST 2012
 
 import play.core._
 import play.core.Router._
@@ -12,7 +12,9 @@ import play.api.mvc._
 import Router.queryString
 
 
-// @LINE:17
+// @LINE:19
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -20,6 +22,8 @@ import Router.queryString
 // @LINE:6
 package controllers {
 
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -28,6 +32,18 @@ class ReverseRegistrations {
 
 
  
+// @LINE:16
+def confirm() = {
+   Call("POST", "/registraions/confirm")
+}
+                                                        
+ 
+// @LINE:15
+def delete() = {
+   Call("POST", "/registrations/delete")
+}
+                                                        
+ 
 // @LINE:12
 def viewRegistrations() = {
    Call("GET", "/registrations/view")
@@ -35,7 +51,7 @@ def viewRegistrations() = {
                                                         
  
 // @LINE:14
-def submit() = {
+def saveNew() = {
    Call("POST", "/registrations/add")
 }
                                                         
@@ -51,13 +67,13 @@ def addNew() = {
 }
                             
 
-// @LINE:17
+// @LINE:19
 class ReverseError {
     
 
 
  
-// @LINE:17
+// @LINE:19
 def showError(errorMessage:String) = {
    Call("GET", "/registrations/error" + queryString(List(Some(implicitly[QueryStringBindable[String]].unbind("errorMessage", errorMessage)))))
 }
@@ -105,7 +121,9 @@ def at(file:String) = {
                     
 
 
-// @LINE:17
+// @LINE:19
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -113,6 +131,8 @@ def at(file:String) = {
 // @LINE:6
 package controllers.javascript {
 
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -120,6 +140,28 @@ class ReverseRegistrations {
     
 
 
+ 
+// @LINE:16
+def confirm = JavascriptReverseRoute(
+   "controllers.Registrations.confirm",
+   """
+      function() {
+      return _wA({method:"POST", url:"/registraions/confirm"})
+      }
+   """
+)
+                                                        
+ 
+// @LINE:15
+def delete = JavascriptReverseRoute(
+   "controllers.Registrations.delete",
+   """
+      function() {
+      return _wA({method:"POST", url:"/registrations/delete"})
+      }
+   """
+)
+                                                        
  
 // @LINE:12
 def viewRegistrations = JavascriptReverseRoute(
@@ -133,8 +175,8 @@ def viewRegistrations = JavascriptReverseRoute(
                                                         
  
 // @LINE:14
-def submit = JavascriptReverseRoute(
-   "controllers.Registrations.submit",
+def saveNew = JavascriptReverseRoute(
+   "controllers.Registrations.saveNew",
    """
       function() {
       return _wA({method:"POST", url:"/registrations/add"})
@@ -159,13 +201,13 @@ def addNew = JavascriptReverseRoute(
 }
                             
 
-// @LINE:17
+// @LINE:19
 class ReverseError {
     
 
 
  
-// @LINE:17
+// @LINE:19
 def showError = JavascriptReverseRoute(
    "controllers.Error.showError",
    """
@@ -228,7 +270,9 @@ def at = JavascriptReverseRoute(
                     
 
 
-// @LINE:17
+// @LINE:19
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -236,6 +280,8 @@ def at = JavascriptReverseRoute(
 // @LINE:6
 package controllers.ref {
 
+// @LINE:16
+// @LINE:15
 // @LINE:14
 // @LINE:13
 // @LINE:12
@@ -244,6 +290,18 @@ class ReverseRegistrations {
 
 
  
+// @LINE:16
+def confirm() = new play.api.mvc.HandlerRef(
+   controllers.Registrations.confirm(), HandlerDef(this, "controllers.Registrations", "confirm", Seq())
+)
+                              
+ 
+// @LINE:15
+def delete() = new play.api.mvc.HandlerRef(
+   controllers.Registrations.delete(), HandlerDef(this, "controllers.Registrations", "delete", Seq())
+)
+                              
+ 
 // @LINE:12
 def viewRegistrations() = new play.api.mvc.HandlerRef(
    controllers.Registrations.viewRegistrations(), HandlerDef(this, "controllers.Registrations", "viewRegistrations", Seq())
@@ -251,8 +309,8 @@ def viewRegistrations() = new play.api.mvc.HandlerRef(
                               
  
 // @LINE:14
-def submit() = new play.api.mvc.HandlerRef(
-   controllers.Registrations.submit(), HandlerDef(this, "controllers.Registrations", "submit", Seq())
+def saveNew() = new play.api.mvc.HandlerRef(
+   controllers.Registrations.saveNew(), HandlerDef(this, "controllers.Registrations", "saveNew", Seq())
 )
                               
  
@@ -267,13 +325,13 @@ def addNew() = new play.api.mvc.HandlerRef(
 }
                             
 
-// @LINE:17
+// @LINE:19
 class ReverseError {
     
 
 
  
-// @LINE:17
+// @LINE:19
 def showError(errorMessage:String) = new play.api.mvc.HandlerRef(
    controllers.Error.showError(errorMessage), HandlerDef(this, "controllers.Error", "showError", Seq(classOf[String]))
 )

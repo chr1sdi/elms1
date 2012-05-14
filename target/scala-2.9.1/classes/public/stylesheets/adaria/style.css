@@ -49,6 +49,23 @@ float:left; margin:0 3px 0 3px;
     padding: 0px 0 0 0px;
     position:  static
 }
+
+.style-button{
+	display:block;
+	width: 200px;
+	height:auto;
+	text-align: center;
+	background-color:#FFFFFF;
+	font-size:20px;
+}
+.style-button :hover{
+	display:block;
+	width: auto;
+	height:auto;
+	
+	font-size:50px;
+}
+
 /*----------------menu tab----------------------*/
 .menu {font-size:14px;padding:0px; float:left; width:890px;}
 /* remove all the bullets, borders and padding from the default list styling */

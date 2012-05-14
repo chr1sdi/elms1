@@ -1,6 +1,6 @@
 // @SOURCE:/home/zenon/scala/elms1/conf/routes
-// @HASH:a2140bafe8f713b9c4b68fddd7c7af9a0c0fd320
-// @DATE:Thu May 10 02:05:42 BST 2012
+// @HASH:1a98835135916211cf771726744b26613c34343e
+// @DATE:Fri May 11 16:21:48 BST 2012
 
 import play.core._
 import play.core.Router._
@@ -31,13 +31,21 @@ val controllers_Registrations_addNew3 = Route("GET", PathPattern(List(StaticPart
                     
 
 // @LINE:14
-val controllers_Registrations_submit4 = Route("POST", PathPattern(List(StaticPart("/registrations/add"))))
+val controllers_Registrations_saveNew4 = Route("POST", PathPattern(List(StaticPart("/registrations/add"))))
                     
 
-// @LINE:17
-val controllers_Error_showError5 = Route("GET", PathPattern(List(StaticPart("/registrations/error"))))
+// @LINE:15
+val controllers_Registrations_delete5 = Route("POST", PathPattern(List(StaticPart("/registrations/delete"))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/registrations/view""","""controllers.Registrations.viewRegistrations"""),("""GET""","""/registrations/add""","""controllers.Registrations.addNew"""),("""POST""","""/registrations/add""","""controllers.Registrations.submit"""),("""GET""","""/registrations/error""","""controllers.Error.showError(errorMessage:String)"""))
+
+// @LINE:16
+val controllers_Registrations_confirm6 = Route("POST", PathPattern(List(StaticPart("/registraions/confirm"))))
+                    
+
+// @LINE:19
+val controllers_Error_showError7 = Route("GET", PathPattern(List(StaticPart("/registrations/error"))))
+                    
+def documentation = List(("""GET""","""/""","""controllers.Application.index"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/registrations/view""","""controllers.Registrations.viewRegistrations"""),("""GET""","""/registrations/add""","""controllers.Registrations.addNew"""),("""POST""","""/registrations/add""","""controllers.Registrations.saveNew"""),("""POST""","""/registrations/delete""","""controllers.Registrations.delete"""),("""POST""","""/registraions/confirm""","""controllers.Registrations.confirm"""),("""GET""","""/registrations/error""","""controllers.Error.showError(errorMessage:String)"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        
@@ -75,15 +83,31 @@ case controllers_Registrations_addNew3(params) => {
                     
 
 // @LINE:14
-case controllers_Registrations_submit4(params) => {
+case controllers_Registrations_saveNew4(params) => {
    call { 
-        invokeHandler(_root_.controllers.Registrations.submit, HandlerDef(this, "controllers.Registrations", "submit", Nil))
+        invokeHandler(_root_.controllers.Registrations.saveNew, HandlerDef(this, "controllers.Registrations", "saveNew", Nil))
    }
 }
                     
 
-// @LINE:17
-case controllers_Error_showError5(params) => {
+// @LINE:15
+case controllers_Registrations_delete5(params) => {
+   call { 
+        invokeHandler(_root_.controllers.Registrations.delete, HandlerDef(this, "controllers.Registrations", "delete", Nil))
+   }
+}
+                    
+
+// @LINE:16
+case controllers_Registrations_confirm6(params) => {
+   call { 
+        invokeHandler(_root_.controllers.Registrations.confirm, HandlerDef(this, "controllers.Registrations", "confirm", Nil))
+   }
+}
+                    
+
+// @LINE:19
+case controllers_Error_showError7(params) => {
    call(params.fromQuery[String]("errorMessage", None)) { (errorMessage) =>
         invokeHandler(_root_.controllers.Error.showError(errorMessage), HandlerDef(this, "controllers.Error", "showError", Seq(classOf[String])))
    }

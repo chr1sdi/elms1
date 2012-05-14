@@ -25,8 +25,11 @@ Seq(format.raw/*1.39*/("""
 
 <div>
     <h3>List of all confirmed registrations:</h3>
-    """),_display_(Seq(/*7.6*/registrationDetails(registrationList, true))),format.raw/*7.49*/("""
-
+    <br />
+    <div>
+        """),_display_(Seq(/*9.10*/registrationDetails(registrationList, true))),format.raw/*9.53*/("""
+    </div>
+    <a href=""""),_display_(Seq(/*11.15*/routes/*11.21*/.Registrations.addNew)),format.raw/*11.42*/(""""  class="style-button">Send your registration</a>
 
 </div>
 
@@ -42,11 +45,11 @@ Seq(format.raw/*1.39*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed May 09 23:20:24 BST 2012
+                    DATE: Fri May 11 15:50:24 BST 2012
                     SOURCE: /home/zenon/scala/elms1/app/views/registrationList.scala.html
-                    HASH: da7d0e81c522afc7cc254206c37ed2236c953789
-                    MATRIX: 528->1|637->38|669->41|720->84|754->86|846->149|910->192
-                    LINES: 19->1|22->1|24->3|24->3|24->3|28->7|28->7
+                    HASH: 9c626c909ddfda595abd4a12c90feadf11d273a4
+                    MATRIX: 528->1|637->38|669->41|720->84|754->86|872->174|936->217|993->243|1008->249|1051->270
+                    LINES: 19->1|22->1|24->3|24->3|24->3|30->9|30->9|32->11|32->11|32->11
                     -- GENERATED --
                 */
             

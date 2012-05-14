@@ -4,8 +4,11 @@
 
 <div>
     <h3>List of all confirmed registrations:</h3>
-    @registrationDetails(registrationList, true)
-
+    <br />
+    <div>
+        @registrationDetails(registrationList, true)
+    </div>
+    <a href="@routes.Registrations.addNew"  class="style-button">Send your registration</a>
 
 </div>
 
