@@ -1,0 +1,28 @@
+<functional.routing_tests-stats timestamp="1337092270262"><stats expectations="1" examples="1" successes="1" time="230"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092283144"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092283160"><stats expectations="2" successes="1" examples="2" failures="1" time="175"><trend><stats expectations="1" examples="1" failures="1" time="405"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092512588"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="9"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092512589"><stats expectations="2" successes="1" examples="2" failures="1" time="167"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092522681"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092522687"><stats expectations="2" successes="1" examples="2" failures="1" time="172"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092721193"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="8"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092721197"><stats expectations="2" successes="1" examples="2" failures="1" time="202"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092749204"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092749207"><stats expectations="2" successes="1" examples="2" failures="1" time="159"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092804548"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092804551"><stats expectations="2" successes="1" examples="2" failures="1" time="185"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092841146"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="8"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092841150"><stats expectations="2" successes="1" examples="2" failures="1" time="188"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337092856016"><result location="functional.routing_tests (routing_tests.scala:19)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="9"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337092856022"><stats expectations="2" successes="1" examples="2" failures="1" time="198"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337093345869"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337093345872"><stats expectations="3" successes="2" examples="3" failures="1" time="209"><trend><stats expectations="1" examples="1" successes="1" time="407"></stats></trend></stats></functional.routing_tests-stats>

@@ -5,8 +5,13 @@
 <div>
     <h3>List of all confirmed registrations:</h3>
     <br />
+
     <div>
-        @registrationDetails(registrationList, true)
+        @if(registrationList.length ==0){
+            <h3>Sorry gringo no people</h3>
+        }else{
+            @registrationDetails(registrationList, true)
+        }
     </div>
     <a href="@routes.Registrations.addNew"  class="style-button">Send your registration</a>
 

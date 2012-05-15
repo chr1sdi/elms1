@@ -12,3 +12,5 @@
 <unit.elms_test-stats timestamp="1337088045654"><stats expectations="1" examples="1" successes="1" time="26"></stats></unit.elms_test-stats>
 <unit.elms_test-stats timestamp="1337088188181"><stats expectations="1" examples="1" successes="1" time="23"></stats></unit.elms_test-stats>
 <unit.elms_test-stats timestamp="1337088213485"><stats expectations="1" examples="1" successes="1" time="4"></stats></unit.elms_test-stats>
+<unit.elms_test-stats timestamp="1337092270854"><stats expectations="1" examples="1" successes="1" time="3"></stats></unit.elms_test-stats>
+<unit.elms_test-stats timestamp="1337092283564"><stats expectations="1" examples="1" successes="1" time="6"></stats></unit.elms_test-stats>

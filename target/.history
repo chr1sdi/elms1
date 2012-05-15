@@ -58,3 +58,10 @@ run
 play test
 test
 exit
+run
+~compile
+~test
+run
+test
+~test
+run

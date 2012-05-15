@@ -41,7 +41,7 @@ object Registrations {
   }
 
   def confirm(id:String){
-    val dateFormatter = DateTimeFormat forPattern ("ddMMyyy")
+    val dateFormatter = DateTimeFormat forPattern ("dd-MM-yyy HH:mm:ss")
     registrations.update(
       MongoDBObject("_id"->new ObjectId(id)),
       $set(

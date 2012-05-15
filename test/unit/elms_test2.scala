@@ -3,6 +3,7 @@ package unit
 import org.specs2._
 import models._
 
+/*
 class elms_test2 extends Specification{ def is =
 	  "Specification for Registrations MongoDB".title    ^
 	                                                     p^
@@ -23,4 +24,4 @@ class elms_test2 extends Specification{ def is =
 	}
 
 
-}
+}      */

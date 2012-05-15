@@ -1,11 +1,10 @@
 [0m[[0minfo[0m] [0melms_test3[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mSpecification for Registrations in MongoDB take_2 should[0m
-[0m[[31merror[0m] [0m[33mx[0m start with empty database[0m
-[0m[[31merror[0m] [0m    'Registration(asdfasdf,wer,asdf,23,false,None,Some(4fb22945e4b004b946a2bdec))' doesn't have size 0 but size 1 (elms_test3.scala:10)[0m
+[0m[[0minfo[0m] [0m[32m+[0m start with empty database[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mTotal for specification elms_test3[0m
-[0m[[0minfo[0m] [0m[34mFinished in 5 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m1 example, 1 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 175 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m1 example, 0 failure, 0 error[0m[0m
 [0m[[0minfo[0m] [0m[0m
