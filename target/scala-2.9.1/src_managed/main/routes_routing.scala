@@ -1,6 +1,6 @@
 // @SOURCE:/home/zenon/scala/elms1/conf/routes
-// @HASH:1a98835135916211cf771726744b26613c34343e
-// @DATE:Fri May 11 16:21:48 BST 2012
+// @HASH:42e7f67fdccd61277fc43d146778113013ecbf2f
+// @DATE:Mon May 14 16:08:22 BST 2012
 
 import play.core._
 import play.core.Router._
@@ -39,13 +39,13 @@ val controllers_Registrations_delete5 = Route("POST", PathPattern(List(StaticPar
                     
 
 // @LINE:16
-val controllers_Registrations_confirm6 = Route("POST", PathPattern(List(StaticPart("/registraions/confirm"))))
+val controllers_Registrations_confirm6 = Route("POST", PathPattern(List(StaticPart("/registrations/confirm"))))
                     
 
 // @LINE:19
 val controllers_Error_showError7 = Route("GET", PathPattern(List(StaticPart("/registrations/error"))))
                     
-def documentation = List(("""GET""","""/""","""controllers.Application.index"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/registrations/view""","""controllers.Registrations.viewRegistrations"""),("""GET""","""/registrations/add""","""controllers.Registrations.addNew"""),("""POST""","""/registrations/add""","""controllers.Registrations.saveNew"""),("""POST""","""/registrations/delete""","""controllers.Registrations.delete"""),("""POST""","""/registraions/confirm""","""controllers.Registrations.confirm"""),("""GET""","""/registrations/error""","""controllers.Error.showError(errorMessage:String)"""))
+def documentation = List(("""GET""","""/""","""controllers.Application.index"""),("""GET""","""/assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""","""/registrations/view""","""controllers.Registrations.viewRegistrations"""),("""GET""","""/registrations/add""","""controllers.Registrations.addNew"""),("""POST""","""/registrations/add""","""controllers.Registrations.saveNew"""),("""POST""","""/registrations/delete""","""controllers.Registrations.delete"""),("""POST""","""/registrations/confirm""","""controllers.Registrations.confirm"""),("""GET""","""/registrations/error""","""controllers.Error.showError(errorMessage:String)"""))
              
     
 def routes:PartialFunction[RequestHeader,Handler] = {        

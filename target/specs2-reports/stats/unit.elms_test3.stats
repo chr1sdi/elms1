@@ -1,0 +1,12 @@
+<unit.elms_test3-results timestamp="1337087613342"><result location="unit.elms_test3 (elms_test3.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="547"></stats></result>
+</unit.elms_test3-results>
+<unit.elms_test3-stats timestamp="1337087613343"><stats expectations="1" examples="1" failures="1" time="547"></stats></unit.elms_test3-stats>
+<unit.elms_test3-results timestamp="1337088046381"><result location="unit.elms_test3 (elms_test3.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="641"></stats></result>
+</unit.elms_test3-results>
+<unit.elms_test3-stats timestamp="1337088046384"><stats expectations="1" examples="1" failures="1" time="641"></stats></unit.elms_test3-stats>
+<unit.elms_test3-results timestamp="1337088188908"><result location="unit.elms_test3 (elms_test3.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="681"></stats></result>
+</unit.elms_test3-results>
+<unit.elms_test3-stats timestamp="1337088188914"><stats expectations="1" examples="1" failures="1" time="681"></stats></unit.elms_test3-stats>
+<unit.elms_test3-results timestamp="1337088213543"><result location="unit.elms_test3 (elms_test3.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="5"></stats></result>
+</unit.elms_test3-results>
+<unit.elms_test3-stats timestamp="1337088213551"><stats expectations="1" examples="1" failures="1" time="5"></stats></unit.elms_test3-stats>

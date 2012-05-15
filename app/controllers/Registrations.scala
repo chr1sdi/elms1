@@ -15,39 +15,42 @@ object Registrations extends Controller {
     tuple(
       "firstName" -> nonEmptyText,
       "lastName" -> nonEmptyText,
+      "profession" -> nonEmptyText,
       "yearsOfExperience" -> number
     )
   )
 
-  val identityInfo = Form{
-    single("id" -> number)
+  val identityInfo = Form {
+    single("id" -> text)
   }
 
-  def viewRegistrations = Action{
+  def viewRegistrations = Action {
     Ok(views.html.registrationList(models.Registrations.getRegistrationList))
   }
 
-  def addNew() = Action{
+  def addNew() = Action {
     Ok(views.html.newRegistration())
   }
 
-  private def goToRegistrationList :Result = {
-    //Ok(views.html.registrationList(models.Registrations.getRegistrationList))
-    Redirect(routes.Registrations.viewRegistrations())
+  private def goToRegistrationList: Result = {
+    Ok(views.html.registrationList(models.Registrations.getRegistrationList))
+
   }
 
-  private def showError(errorMessage:String):Result = {
-    Ok(views.html.error(errorMessage))
+  private def showError(errorMessage: String, form: Form[(String, String, String, Int)]): Result = {
+    BadRequest(views.html.error(errorMessage))
   }
 
+  private def showError(errorMessage: String): Result = BadRequest(views.html.error(errorMessage))
 
-  def saveNew = Action{
-    implicit request=> {
+
+  def saveNew = Action {
+    implicit request => {
       newRegistrationForm.bindFromRequest.fold(
-        errors => showError("something wend terribly wrong while adding"),
-        reg=>{
-          val (firstName,lastName,expYears) = reg
-          models.Registrations.addNew(Registration(firstName,lastName,"test prof",expYears))
+        errors => showError("something wend terribly wrong while adding", errors),
+        reg => {
+          val (firstName, lastName, profession, expYears) = reg
+          models.Registrations.addNew(Registration(firstName, lastName, profession, expYears))
           goToRegistrationList
 
         }
@@ -56,11 +59,11 @@ object Registrations extends Controller {
     }
   }
 
-  def delete = Action{
-    implicit request=>
+  def delete = Action {
+    implicit request =>
       identityInfo.bindFromRequest.fold(
-        errors=> showError("something went wrong with deletion"),
-        delInfo =>{
+        errors => showError("something went wrong with deletion"),
+        delInfo => {
           val id = delInfo
           models.Registrations.remove(id)
           goToRegistrationList
@@ -68,11 +71,11 @@ object Registrations extends Controller {
       )
   }
 
-  def confirm = Action{
+  def confirm = Action {
     implicit request =>
       identityInfo.bindFromRequest.fold(
-        errors=>  showError("something went wrong with confirming"),
-        confInfo=>{
+        errors => showError("something went wrong with confirming"),
+        confInfo => {
           models.Registrations.confirm(confInfo)
           goToRegistrationList
         }

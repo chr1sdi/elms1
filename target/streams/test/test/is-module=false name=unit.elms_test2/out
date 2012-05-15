@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mSpecification for Registrations MongoDB[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mA starting scenerio should be[0m
+[0m[[0minfo[0m] [0mwith DB cleared[0m
+[0m[[31merror[0m] [0m[33mx[0m return empty list when empty[0m
+[0m[[31merror[0m] [0m    'Registration(asdfasdf,wer,asdf,23,false,None,Some(4fb22945e4b004b946a2bdec))' doesn't have size 0 but size 1 (elms_test2.scala:15)[0m
+[0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0mTotal for specification Specification for Registrations MongoDB[0m
+[0m[[0minfo[0m] [0m[34mFinished in 695 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m1 example, 1 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[0m

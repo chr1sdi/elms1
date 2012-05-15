@@ -1,34 +1,37 @@
 @main("New Registration") {
-	@helper.form(action = routes.Registrations.saveNew){
+
 	<div >
 
 	    <h3>New registration form</h3>
 	    <br/>
-	    <div>
-	    	<table>
-                <tr>
-                    <td>First name</td>
-                    <td><input type="text" name="firstName" placeholder="la first name" /></td>
-                </tr>
-                <tr>
-                    <td>Last name</td>
-                    <td><input type="text" name="lastName" placeholder="la last name" /></td>
-                </tr>
-                <tr>
-                    <td>Profession</td>
-                    <td><input type="text" name="profession" placeholder="la profession" /></td>
-                    <td><input type="text" name="yearsOfExperience" placeholder="la years"/></td>
-                </tr>
 
-            </table>
-	    </div>
+        @helper.form(action = routes.Registrations.saveNew){
+            <div>
+                <table>
+                    <tr>
+                        <td>First name</td>
+                        <td><input type="text" name="firstName" placeholder="la first name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Last name</td>
+                        <td><input type="text" name="lastName" placeholder="la last name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Profession</td>
+                        <td><input type="text" name="profession" placeholder="la profession" /></td>
+                        <td><input type="text" name="yearsOfExperience" placeholder="la years"/></td>
+                    </tr>
+
+                </table>
+            </div>
 
 
-	    <div>
+            <div>
 
-	        <input type="submit" value="Send registration"/>
-	        <a href="@routes.Application.index" class="btn btn-large">Cancel</a>
-	    </div>
+                <input type="submit" value="Send registration"/>
+                <a href="@routes.Application.index" class="btn btn-large">Cancel</a>
+            </div>
+        }
 	</div>
-	}
+
 }

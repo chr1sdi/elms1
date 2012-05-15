@@ -13,7 +13,7 @@ GET     /registrations/view   controllers.Registrations.viewRegistrations
 GET     /registrations/add    controllers.Registrations.addNew
 POST    /registrations/add    controllers.Registrations.saveNew
 POST    /registrations/delete controllers.Registrations.delete
-POST    /registraions/confirm controllers.Registrations.confirm
+POST    /registrations/confirm controllers.Registrations.confirm
 
 # Error handling
 GET     /registrations/error  controllers.Error.showError(errorMessage:String)

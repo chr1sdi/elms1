@@ -20,38 +20,41 @@ object newRegistration extends BaseScalaTemplate[play.api.templates.Html,Format[
         _display_ {
 
 Seq(_display_(Seq(/*1.2*/main("New Registration")/*1.26*/ {_display_(Seq(format.raw/*1.28*/("""
-	"""),_display_(Seq(/*2.3*/helper/*2.9*/.form(action = routes.Registrations.saveNew)/*2.53*/{_display_(Seq(format.raw/*2.54*/("""
+
 	<div >
 
 	    <h3>New registration form</h3>
 	    <br/>
-	    <div>
-	    	<table>
-                <tr>
-                    <td>First name</td>
-                    <td><input type="text" name="firstName" placeholder="la first name" /></td>
-                </tr>
-                <tr>
-                    <td>Last name</td>
-                    <td><input type="text" name="lastName" placeholder="la last name" /></td>
-                </tr>
-                <tr>
-                    <td>Profession</td>
-                    <td><input type="text" name="profession" placeholder="la profession" /></td>
-                    <td><input type="text" name="yearsOfExperience" placeholder="la years"/></td>
-                </tr>
 
-            </table>
-	    </div>
+        """),_display_(Seq(/*8.10*/helper/*8.16*/.form(action = routes.Registrations.saveNew)/*8.60*/{_display_(Seq(format.raw/*8.61*/("""
+            <div>
+                <table>
+                    <tr>
+                        <td>First name</td>
+                        <td><input type="text" name="firstName" placeholder="la first name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Last name</td>
+                        <td><input type="text" name="lastName" placeholder="la last name" /></td>
+                    </tr>
+                    <tr>
+                        <td>Profession</td>
+                        <td><input type="text" name="profession" placeholder="la profession" /></td>
+                        <td><input type="text" name="yearsOfExperience" placeholder="la years"/></td>
+                    </tr>
+
+                </table>
+            </div>
 
 
-	    <div>
+            <div>
 
-	        <input type="submit" value="Send registration"/>
-	        <a href=""""),_display_(Seq(/*30.20*/routes/*30.26*/.Application.index)),format.raw/*30.44*/("""" class="btn btn-large">Cancel</a>
-	    </div>
+                <input type="submit" value="Send registration"/>
+                <a href=""""),_display_(Seq(/*32.27*/routes/*32.33*/.Application.index)),format.raw/*32.51*/("""" class="btn btn-large">Cancel</a>
+            </div>
+        """)))})),format.raw/*34.10*/("""
 	</div>
-	""")))})),format.raw/*33.3*/("""
+
 """)))})))}
     }
     
@@ -64,11 +67,11 @@ Seq(_display_(Seq(/*1.2*/main("New Registration")/*1.26*/ {_display_(Seq(format.
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri May 11 16:21:48 BST 2012
+                    DATE: Mon May 14 12:32:03 BST 2012
                     SOURCE: /home/zenon/scala/elms1/app/views/newRegistration.scala.html
-                    HASH: 7ba89d3776c105e589324e81703686ce3525b7a3
-                    MATRIX: 578->1|610->25|644->27|676->30|689->36|741->80|774->81|1645->921|1660->927|1700->945|1788->1002
-                    LINES: 22->1|22->1|22->1|23->2|23->2|23->2|23->2|51->30|51->30|51->30|54->33
+                    HASH: 89afafcb25617b1cd108bc71de77edc293636bf9
+                    MATRIX: 578->1|610->25|644->27|742->95|756->101|808->145|841->146|1757->1031|1772->1037|1812->1055|1907->1118
+                    LINES: 22->1|22->1|22->1|29->8|29->8|29->8|29->8|53->32|53->32|53->32|55->34
                     -- GENERATED --
                 */
             

@@ -1,6 +1,6 @@
 // @SOURCE:/home/zenon/scala/elms1/conf/routes
-// @HASH:1a98835135916211cf771726744b26613c34343e
-// @DATE:Fri May 11 16:21:48 BST 2012
+// @HASH:42e7f67fdccd61277fc43d146778113013ecbf2f
+// @DATE:Mon May 14 16:08:22 BST 2012
 
 import play.core._
 import play.core.Router._
@@ -34,7 +34,7 @@ class ReverseRegistrations {
  
 // @LINE:16
 def confirm() = {
-   Call("POST", "/registraions/confirm")
+   Call("POST", "/registrations/confirm")
 }
                                                         
  
@@ -146,7 +146,7 @@ def confirm = JavascriptReverseRoute(
    "controllers.Registrations.confirm",
    """
       function() {
-      return _wA({method:"POST", url:"/registraions/confirm"})
+      return _wA({method:"POST", url:"/registrations/confirm"})
       }
    """
 )

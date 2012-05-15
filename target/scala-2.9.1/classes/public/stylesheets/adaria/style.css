@@ -58,13 +58,6 @@ float:left; margin:0 3px 0 3px;
 	background-color:#FFFFFF;
 	font-size:20px;
 }
-.style-button :hover{
-	display:block;
-	width: auto;
-	height:auto;
-	
-	font-size:50px;
-}
 
 /*----------------menu tab----------------------*/
 .menu {font-size:14px;padding:0px; float:left; width:890px;}
