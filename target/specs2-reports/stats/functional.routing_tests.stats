@@ -26,3 +26,6 @@
 <functional.routing_tests-results timestamp="1337093345869"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
 </functional.routing_tests-results>
 <functional.routing_tests-stats timestamp="1337093345872"><stats expectations="3" successes="2" examples="3" failures="1" time="209"><trend><stats expectations="1" examples="1" successes="1" time="407"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337093880390"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="6"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337093880396"><stats expectations="3" successes="2" examples="3" failures="1" time="748"></stats></functional.routing_tests-stats>

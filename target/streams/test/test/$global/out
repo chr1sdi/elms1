@@ -1,6 +1,7 @@
-[0m[[31merror[0m] [0mFailed: : Total 4, Failed 1, Errors 0, Passed 3, Skipped 0[0m
+[0m[[31merror[0m] [0mFailed: : Total 4, Failed 2, Errors 0, Passed 2, Skipped 0[0m
 [0m[[31merror[0m] [0mFailed tests:[0m
 [0m[[31merror[0m] [0m	functional.routing_tests[0m
+[0m[[31merror[0m] [0m	unit.RegistrationControllerTests[0m
 java.lang.RuntimeException: Tests unsuccessful
 	at scala.sys.package$.error(package.scala:27)
 	at scala.Predef$.error(Predef.scala:66)
