@@ -2,9 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="335e33cb-8a6e-4210-a9e6-4892e3285aa5" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/elms_test.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/unit/elms_test2.scala" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/test/unit/elms_test3.scala" afterPath="$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$12.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$14$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$14.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$15.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$16$$anonfun$apply$17.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$16.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$18.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$19.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$20.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$10.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$11.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$6$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$8$$anonfun$apply$9.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5$$anonfun$apply$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21$$anonfun$apply$22.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21$$anonfun$apply$23$$anonfun$apply$24.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21$$anonfun$apply$23.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21$$anonfun$apply$25.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21$$anonfun$apply$26.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$21.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2$$anonfun$apply$27.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests$$anonfun$1$$anonfun$apply$1$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests$$anonfun$1$$anonfun$apply$1$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests$$anonfun$1$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests$$anonfun$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/unit/RegistrationControllerTests.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/compile" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/test/compile" afterPath="$PROJECT_DIR$/target/scala-2.9.1/cache/compile/test/compile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$$anonfun$getRegistrationList$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$$anonfun$getRegistrationList$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$$anonfun$getRegistrationList$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$$anonfun$getRegistrationList$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/classes/models/Registrations.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests.class" afterPath="$PROJECT_DIR$/target/scala-2.9.1/test-classes/functional/routing_tests.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/functional.routing_tests.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/functional.routing_tests.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/specs2-reports/stats/unit.RegistrationControllerTests.stats" afterPath="$PROJECT_DIR$/target/specs2-reports/stats/unit.RegistrationControllerTests.stats" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/compile/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/compile/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/$global/out" afterPath="$PROJECT_DIR$/target/streams/test/test/$global/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/is-module=false name=functional.routing_tests/out" afterPath="$PROJECT_DIR$/target/streams/test/test/is-module=false name=functional.routing_tests/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/test/test/is-module=false name=unit.RegistrationControllerTests/out" afterPath="$PROJECT_DIR$/target/streams/test/test/is-module=false name=unit.RegistrationControllerTests/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Registration.scala" afterPath="$PROJECT_DIR$/app/models/Registration.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/application.log" afterPath="$PROJECT_DIR$/logs/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/.history" afterPath="$PROJECT_DIR$/target/.history" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/RegistrationControllerTests.xml" afterPath="$PROJECT_DIR$/target/test-reports/RegistrationControllerTests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-reports/routing_tests.xml" afterPath="$PROJECT_DIR$/target/test-reports/routing_tests.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/routing_tests.scala" afterPath="$PROJECT_DIR$/test/functional/routing_tests.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala" afterPath="$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala" />
     </list>
     <ignored path="elms1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,20 +118,9 @@
       <file leaf-file-name="Registration.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="7" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+            <state line="22" column="59" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#16#45#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistrationControllerTests.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="66" selection-end="93" vertical-scroll-proportion="0.17391305">
-              <folding>
-                <element signature="e#14#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,10 +129,30 @@
       <file leaf-file-name="routing_tests.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/functional/routing_tests.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+            <state line="29" column="38" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#20#47#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistrationControllerTests.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="44" selection-start="1019" selection-end="1022" vertical-scroll-proportion="0.70961887">
+              <folding>
+                <element signature="e#14#33#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registrationList.scala.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/registrationList.scala.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="44" selection-start="102" selection-end="138" vertical-scroll-proportion="-3.3333333">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,15 +175,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.scala.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/index.scala.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="59" selection-end="68" vertical-scroll-proportion="-2.6666667">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -135,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/Error.scala" />
         <option value="$PROJECT_DIR$/public/stylesheets/adaria/style.css" />
         <option value="$PROJECT_DIR$/app/views/registrationDetails.scala.html" />
         <option value="$PROJECT_DIR$/app/views/newRegistration.scala.html" />
@@ -148,9 +200,10 @@
         <option value="$PROJECT_DIR$/test/unit/elms_test.scala" />
         <option value="$PROJECT_DIR$/test/unit/elms_test2.scala" />
         <option value="$PROJECT_DIR$/app/views/registrationList.scala.html" />
+        <option value="$PROJECT_DIR$/test/unit/elms_test3.scala" />
         <option value="$PROJECT_DIR$/test/functional/routing_tests.scala" />
         <option value="$PROJECT_DIR$/app/models/Registration.scala" />
-        <option value="$PROJECT_DIR$/test/unit/elms_test3.scala" />
+        <option value="$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala" />
       </list>
     </option>
   </component>
@@ -158,10 +211,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="28" />
-    <option name="width" value="1584" />
-    <option name="height" value="727" />
+    <option name="x" value="67" />
+    <option name="y" value="30" />
+    <option name="width" value="1604" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -247,10 +300,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="unit" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RegistrationControllerTests.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -561,8 +610,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="28" width="1584" height="727" extended-state="0" />
-    <editor active="false" />
+    <frame x="67" y="30" width="1604" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -577,7 +626,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15775749" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13384813" sideWeight="0.67108166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24952137" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -645,16 +694,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/registrationDetails.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="63" selection-start="1031" selection-end="1032" vertical-scroll-proportion="0.5233645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/newRegistration.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="637" selection-end="637" vertical-scroll-proportion="0.35514018" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/Build.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="14" selection-start="579" selection-end="579" vertical-scroll-proportion="0.36363637" />
@@ -681,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/registrationList.scala.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="44" selection-start="102" selection-end="138" vertical-scroll-proportion="0.15779093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Application.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.4519774">
@@ -709,15 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/functional/routing_tests.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#20#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/Registrations.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="41" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0">
@@ -725,20 +748,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/apps/Play20/repository/cache/org.mongodb/mongo-java-driver/jars/mongo-java-driver-2.7.3.jar!/com/mongodb/util/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="17" selection-start="1665" selection-end="1665" vertical-scroll-proportion="0.5118577">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/newRegistration.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="33" selection-start="48" selection-end="68" vertical-scroll-proportion="-2.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registrationDetails.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="52" selection-start="368" selection-end="368" vertical-scroll-proportion="0.37869823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/registrationList.scala.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="44" selection-start="102" selection-end="138" vertical-scroll-proportion="-3.3333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/functional/routing_tests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="38" selection-start="970" selection-end="970" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Registration.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="7" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+        <state line="22" column="59" selection-start="801" selection-end="801" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#16#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/apps/Play20/repository/local/org.specs2/specs2_2.9.1/1.7.1/jars/specs2_2.9.1.jar!/org/specs2/specification/SpecificationStructure.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="172" selection-end="172" vertical-scroll-proportion="0.091254756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/RegistrationControllerTests.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="66" selection-end="93" vertical-scroll-proportion="0.17391305">
+        <state line="32" column="44" selection-start="1019" selection-end="1022" vertical-scroll-proportion="0.70961887">
           <folding>
-            <element signature="e#14#41#0" expanded="true" />
+            <element signature="e#14#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

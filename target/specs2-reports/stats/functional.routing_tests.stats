@@ -29,3 +29,83 @@
 <functional.routing_tests-results timestamp="1337093880390"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="6"></stats></result>
 </functional.routing_tests-results>
 <functional.routing_tests-stats timestamp="1337093880396"><stats expectations="3" successes="2" examples="3" failures="1" time="748"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337158143624"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="26"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337158143671"><stats expectations="3" successes="2" examples="3" failures="1" time="3088"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337159416097"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="4"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337159416101"><stats expectations="3" successes="2" examples="3" failures="1" time="256"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337159448314"><result location="functional.routing_tests (routing_tests.scala:28)" id="2008021554"><stats expectations="1" examples="1" failures="1" time="6"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337159448346"><stats expectations="3" successes="2" examples="3" failures="1" time="1025"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337160010990"><stats expectations="3" examples="3" successes="3" time="207"><trend><stats failures="-1" successes="1" time="1232"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337161090370"><stats expectations="4" examples="4" successes="4" time="281"><trend><stats expectations="1" examples="1" successes="1" time="488"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337161663785"><result location="functional.routing_tests (routing_tests.scala:36)" id="1597065373"><stats expectations="1" examples="1" failures="1" time="14"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337161663789"><stats expectations="4" successes="3" examples="4" failures="1" time="371"><trend><stats failures="1" successes="-1" time="652"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337161670740"><result location="functional.routing_tests (routing_tests.scala:36)" id="1597065373"><stats expectations="1" examples="1" failures="1" time="11"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337161670747"><stats expectations="4" successes="3" examples="4" failures="1" time="1388"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337161788899"><result location="functional.routing_tests (routing_tests.scala:36)" id="1597065373"><stats expectations="1" examples="1" failures="1" time="5"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337161788922"><stats expectations="4" successes="3" examples="4" failures="1" time="272"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337162112945"><result location="functional.routing_tests (routing_tests.scala:36)" id="1597065373"><stats expectations="1" examples="1" failures="1" time="11"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337162112952"><stats expectations="4" successes="3" examples="4" failures="1" time="222"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337162184155"><stats expectations="4" examples="4" successes="4" time="221"><trend><stats failures="-1" successes="1" time="443"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337162565460"><result location="functional.routing_tests (routing_tests.scala:27)" id="-558158531"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337162565466"><stats expectations="5" successes="4" examples="5" failures="1" time="237"><trend><stats expectations="1" examples="1" failures="1" time="458"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337162634338"><result location="functional.routing_tests (routing_tests.scala:27)" id="-558158531"><stats expectations="1" examples="1" failures="1" time="9"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337162634356"><stats expectations="5" successes="4" examples="5" failures="1" time="762"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337162659247"><stats expectations="5" examples="5" successes="5" time="811"><trend><stats failures="-1" successes="1" time="1573"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337162711624"><stats expectations="5" examples="5" successes="5" time="738"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337162944776"><stats expectations="5" examples="5" successes="5" time="214"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337162987134"><stats expectations="5" examples="5" successes="5" time="808"></stats></functional.routing_tests-stats>
+<functional.routing_tests-results timestamp="1337163013597"><result location="functional.routing_tests (routing_tests.scala:27)" id="-994583235"><stats expectations="1" examples="1" failures="1" time="7"></stats></result>
+</functional.routing_tests-results>
+<functional.routing_tests-stats timestamp="1337163013600"><stats expectations="5" successes="4" examples="5" failures="1" time="269"><trend><stats failures="1" successes="-1" time="1077"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337167897326"><stats expectations="5" examples="5" successes="5" time="1068"><trend><stats failures="-1" successes="1" time="1337"></stats></trend></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337167905467"><stats expectations="5" examples="5" successes="5" time="275"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337168033456"><stats expectations="5" examples="5" successes="5" time="545"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337168152204"><stats expectations="5" examples="5" successes="5" time="603"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337168164218"><stats expectations="5" examples="5" successes="5" time="1199"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337168168875"><stats expectations="5" examples="5" successes="5" time="755"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337171914129"><stats expectations="5" examples="5" successes="5" time="295"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337171959669"><stats expectations="5" examples="5" successes="5" time="449"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173381392"><stats expectations="5" examples="5" successes="5" time="398"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173412304"><stats expectations="5" examples="5" successes="5" time="378"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173453451"><stats expectations="5" examples="5" successes="5" time="500"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173468727"><stats expectations="5" examples="5" successes="5" time="297"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173621509"><stats expectations="5" examples="5" successes="5" time="622"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337173911430"><stats expectations="5" examples="5" successes="5" time="799"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337174025761"><stats expectations="5" examples="5" successes="5" time="661"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337174644077"><stats expectations="5" examples="5" successes="5" time="917"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337175257366"><stats expectations="5" examples="5" successes="5" time="964"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337175767204"><stats expectations="5" examples="5" successes="5" time="841"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337175969757"><stats expectations="5" examples="5" successes="5" time="816"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176227143"><stats expectations="5" examples="5" successes="5" time="2022"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176243342"><stats expectations="5" examples="5" successes="5" time="1170"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176255385"><stats expectations="5" examples="5" successes="5" time="1041"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176277268"><stats expectations="5" examples="5" successes="5" time="1097"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176302988"><stats expectations="5" examples="5" successes="5" time="1015"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176347692"><stats expectations="5" examples="5" successes="5" time="6691"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176384465"><stats expectations="5" examples="5" successes="5" time="9572"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176482727"><stats expectations="5" examples="5" successes="5" time="3423"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176531035"><stats expectations="5" examples="5" successes="5" time="1108"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176658608"><stats expectations="5" examples="5" successes="5" time="10861"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176675043"><stats expectations="5" examples="5" successes="5" time="366"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176781799"><stats expectations="5" examples="5" successes="5" time="347"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176787165"><stats expectations="5" examples="5" successes="5" time="855"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337176857509"><stats expectations="5" examples="5" successes="5" time="784"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177111908"><stats expectations="5" examples="5" successes="5" time="240"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177149290"><stats expectations="5" examples="5" successes="5" time="739"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177162602"><stats expectations="5" examples="5" successes="5" time="249"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177202113"><stats expectations="5" examples="5" successes="5" time="374"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177219129"><stats expectations="5" examples="5" successes="5" time="747"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177247425"><stats expectations="5" examples="5" successes="5" time="236"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177284854"><stats expectations="5" examples="5" successes="5" time="229"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177347725"><stats expectations="5" examples="5" successes="5" time="300"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177358292"><stats expectations="5" examples="5" successes="5" time="784"></stats></functional.routing_tests-stats>
+<functional.routing_tests-stats timestamp="1337177948277"><stats expectations="5" examples="5" successes="5" time="842"></stats></functional.routing_tests-stats>

@@ -17,15 +17,19 @@ case class Registration(firstName: String, lastName: String,
 
 
 object Registrations {
+  private var _databaseName = "elms1"
 
   private val mongoConnection = MongoConnection()
-  private def registrations = mongoConnection("elms1")("Registrations")
+  private def registrations = mongoConnection(_databaseName)("Registrations")
   private var isInitialized=false
   private var registrationList = List[Registration]()
   private var currentId=1
 
+  def setDatabaseTo(databaseName:String){
+    _databaseName=databaseName
+  }
 
-
+  def clearAll = registrations.remove(DBObject())
 
   def addNew(registration:Registration){
     registrations+=grater[Registration].asDBObject(registration)

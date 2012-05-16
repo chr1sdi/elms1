@@ -1,29 +1,16 @@
 [0m[[0minfo[0m] [0mrouting_tests[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0mCurrent routing should[0m
-[0m[[0minfo[0m] [0m[32m+[0m respond to the / with Index Page[0m
+[0m[[0minfo[0m] [0m[32m+[0m respond to / with Index Page[0m
 [0m[[0minfo[0m] [0m[32m+[0m respond to /registrations/view with Registration list page[0m
+[0m[[0minfo[0m] [0m[32m+[0m respond to /registration/add with Add new registration page[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mList of all registrations should[0m
-[0m[[31merror[0m] [0m[33mx[0m print message 'There is no ppl' when empty DB[0m
-[0m[[31merror[0m] [0m    '[0m
-[0m[[31merror[0m] [0m[0m
-[0m[[31merror[0m] [0m<div>[0m
-[0m[[31merror[0m] [0m    <table cellspacing="4">[0m
-[0m[[31merror[0m] [0m        <tr>[0m
-[0m[[31merror[0m] [0m            <th>First name</th>[0m
-[0m[[31merror[0m] [0m            <th>Last name</th>[0m
-[0m[[31merror[0m] [0m            <th>Profession</th>[0m
-[0m[[31merror[0m] [0m            <th>Experience</th>[0m
-[0m[[31merror[0m] [0m            <th>Confirmed</th>[0m
-[0m[[31merror[0m] [0m            <th>Confirmation date</th>[0m
-[0m[[31merror[0m] [0m        </tr>[0m
-[0m[[31merror[0m] [0m        [0m
-[0m[[31merror[0m] [0m    </table>[0m
-[0m[[31merror[0m] [0m</div>' doesn't contain 'Sorry gringo no people' (routing_tests.scala:32)[0m
+[0m[[0minfo[0m] [0m[32m+[0m print message 'There is no ppl' when empty DB[0m
+[0m[[0minfo[0m] [0m[32m+[0m display table with registrations when registrations in db[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mTotal for specification routing_tests[0m
-[0m[[0minfo[0m] [0m[34mFinished in 748 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m3 examples, 1 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 842 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m5 examples, 0 failure, 0 error[0m[0m
 [0m[[0minfo[0m] [0m[0m

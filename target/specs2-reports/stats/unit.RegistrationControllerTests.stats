@@ -1,3 +1,103 @@
 <unit.RegistrationControllerTests-results timestamp="1337093880542"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="16"></stats></result>
 </unit.RegistrationControllerTests-results>
 <unit.RegistrationControllerTests-stats timestamp="1337093880544"><stats expectations="1" examples="1" failures="1" time="16"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337158140073"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="2729"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337158140078"><stats expectations="1" examples="1" failures="1" time="2729"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337159415681"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="811"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337159415685"><stats expectations="1" examples="1" failures="1" time="811"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337159448484"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="11"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337159448487"><stats expectations="1" examples="1" failures="1" time="11"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337160010656"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="540"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337160010671"><stats expectations="1" examples="1" failures="1" time="540"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337161090001"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="531"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337161090007"><stats expectations="1" examples="1" failures="1" time="531"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337161663199"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="671"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337161663210"><stats expectations="1" examples="1" failures="1" time="671"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337161670892"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="12"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337161670894"><stats expectations="1" examples="1" failures="1" time="12"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337161788481"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="671"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337161788500"><stats expectations="1" examples="1" failures="1" time="671"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162112527"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="528"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162112532"><stats expectations="1" examples="1" failures="1" time="528"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162183841"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="528"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162183845"><stats expectations="1" examples="1" failures="1" time="528"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162565128"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="659"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162565133"><stats expectations="1" examples="1" failures="1" time="659"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162634465"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="15"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162634470"><stats expectations="1" examples="1" failures="1" time="15"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162659354"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="16"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162659358"><stats expectations="1" examples="1" failures="1" time="16"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162711712"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="16"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162711715"><stats expectations="1" examples="1" failures="1" time="16"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162944459"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="531"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162944464"><stats expectations="1" examples="1" failures="1" time="531"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337162987236"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="20"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337162987239"><stats expectations="1" examples="1" failures="1" time="20"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337163013201"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="3074"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337163013214"><stats expectations="1" examples="1" failures="1" time="3074"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337167897485"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="24"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337167897488"><stats expectations="1" examples="1" failures="1" time="24"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337167905038"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:9)" id="-812920630"><stats expectations="1" examples="1" failures="1" time="1108"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337167905042"><stats expectations="1" examples="1" failures="1" time="1108"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337168032728"><stats expectations="1" examples="1" successes="1" time="560"><trend><stats failures="-1" successes="1" time="1668"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337168152390"><stats expectations="1" examples="1" successes="1" time="44"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337168164426"><stats expectations="1" examples="1" successes="1" time="50"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337168169101"><stats expectations="1" examples="1" successes="1" time="91"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337171913653"><stats expectations="1" examples="1" successes="1" time="19"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337171959816"><stats expectations="1" examples="1" successes="1" time="5"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173381597"><stats expectations="1" examples="1" successes="1" time="4"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173411726"><stats expectations="1" examples="1" successes="1" time="5"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173453595"><stats expectations="1" examples="1" successes="1" time="5"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173468123"><stats expectations="1" examples="1" successes="1" time="7"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173620674"><stats expectations="1" examples="1" successes="1" time="5"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337173911582"><stats expectations="1" examples="1" successes="1" time="5"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337174024962"><stats expectations="1" examples="1" successes="1" time="8"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337174644244"><stats expectations="1" examples="1" successes="1" time="7"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337175257503"><stats expectations="1" examples="1" successes="1" time="8"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337175767310"><stats><trend><stats expectations="-1" examples="-1" successes="-1" time="8"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337175968432"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176227276"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176243425"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176255540"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176277583"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176301842"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176348487"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176384620"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176482930"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176529616"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176658818"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176674289"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176781255"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176787458"><stats><trend><stats expectations="-1"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337176857629"><stats expectations="1" examples="1" successes="1" time="15"><trend><stats successes="1" examples="1" time="15"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177111500"><stats expectations="1" examples="1" successes="1" time="14"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177149445"><stats expectations="1" examples="1" successes="1" time="12"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177162205"><stats expectations="1" examples="1" successes="1" time="15"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177201550"><stats expectations="1" examples="1" successes="1" time="35"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177219293"><stats expectations="1" examples="1" successes="1" time="10"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177247056"><stats expectations="1" examples="1" successes="1" time="17"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-results timestamp="1337177284479"><result location="unit.RegistrationControllerTests (RegistrationControllerTests.scala:20)" id="-1835367799"><stats expectations="1" examples="1" failures="1" time="22"></stats></result>
+</unit.RegistrationControllerTests-results>
+<unit.RegistrationControllerTests-stats timestamp="1337177284487"><stats expectations="1" examples="1" failures="1" time="22"><trend><stats failures="1" successes="-1" time="39"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177347219"><stats expectations="1" examples="1" successes="1" time="28"><trend><stats failures="-1" successes="1" time="50"></stats></trend></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177358445"><stats expectations="1" examples="1" successes="1" time="8"></stats></unit.RegistrationControllerTests-stats>
+<unit.RegistrationControllerTests-stats timestamp="1337177948434"><stats expectations="1" examples="1" successes="1" time="10"></stats></unit.RegistrationControllerTests-stats>

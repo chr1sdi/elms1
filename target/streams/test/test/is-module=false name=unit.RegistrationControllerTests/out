@@ -1,11 +1,13 @@
 [0m[[0minfo[0m] [0mRegistrationControllerTests[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mSpecification for Registrations in MongoDB take_2 should[0m
-[0m[[31merror[0m] [0m[33mx[0m start with empty database[0m
-[0m[[31merror[0m] [0m    'Registration(asdfasdfasdf,asdf,fwe,3,true,Some(15-05-2012 15:54:10),Some(4fb26e11e4b02251c13cb272))' doesn't have size 0 but size 1 (RegistrationControllerTests.scala:10)[0m
+[0m[[0minfo[0m] [0mSpecification for Registrations in MongoDB[0m
 [0m[[0minfo[0m] [0m [0m
+[0m[[0minfo[0m] [0m  Given database test1[0m
+[0m[[0minfo[0m] [0m  and cleared all registrations dfds[0m
+[0m[[0minfo[0m] [0m  When user requests list of registrations[0m
+[0m[[0minfo[0m] [0m  [32m+[0m Then returned list should be empty[0m
 [0m[[0minfo[0m] [0m [0m
 [0m[[0minfo[0m] [0mTotal for specification RegistrationControllerTests[0m
-[0m[[0minfo[0m] [0m[34mFinished in 16 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m1 example, 1 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 10 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m1 example, 0 failure, 0 error[0m[0m
 [0m[[0minfo[0m] [0m[0m
